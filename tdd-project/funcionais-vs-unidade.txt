@@ -1,0 +1,9 @@
+
+Os testes de unidade são escritos da perspectiva dos programadores.
+Eles são feitos para garantir que um método específico (ou uma unidade ) 
+de uma classe execute um conjunto de tarefas específicas. 
+vs
+Os testes funcionais, ou de caixa-preta, são escritos da perspectiva do usuário.
+Ele é baseado nos requisitos funcionais do software e não está preocupada com
+o comportamento interno do sistema durante a execução do teste,
+mas sim com a saída gerada após a entrada dos dados especificados.
