@@ -1,0 +1,7 @@
+Devemos escrever o teste funcional, rodar o teste e verificar se falha, 
+escrever algum código da aplicação, 
+rodar o teste novamente e repetir até passar. 
+Caso o teste falhe ou precise de refatoração, "repetimos" as etapas
+ao criar um novo teste de unidade. O escrevemos, rodamos o teste e 
+verificamos se falha. Se falhar ou precisar de refatoração repetimos 
+até estar pronto. 
