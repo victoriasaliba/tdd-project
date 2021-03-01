@@ -30,8 +30,6 @@ class NewVisitorTest(LiveServerTestCase):
         # "1: Estudar testes funcionais" como um item da lista TODO
         inputbox.send_keys(Keys.ENTER)
 
-        table = self.browser.find_element_by_id('id_list_table')
-        rows = table.find_elements_by_tag_name('tr')  
         self.wait_for_row_in_list_table('1: Estudar testes funcionais')
 
         # Ainda existe uma caixa de texto convidando para adicionar outro item
@@ -40,8 +38,6 @@ class NewVisitorTest(LiveServerTestCase):
         inputbox.send_keys('Estudar testes de unidade')
         inputbox.send_keys(Keys.ENTER)
         # A página atualiza novamente, e agora mostra ambos os itens na sua lista
-        table = self.browser.find_element_by_id('id_list_table')
-        rows = table.find_elements_by_tag_name('tr')
         self.wait_for_row_in_list_table('1: Estudar testes funcionais')
         self.wait_for_row_in_list_table('2: Estudar testes de unidade')
 
